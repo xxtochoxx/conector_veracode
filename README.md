@@ -4,7 +4,7 @@
 
 Clone this repository:
 
-    git clone https://github.com/xxtochoxx/veracode
+    git clone https://github.com/xxtochoxx/conector_veracode
 
 Install dependencies:
 
