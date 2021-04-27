@@ -8,7 +8,7 @@ Clone this repository:
 
 Install dependencies:
 
-    cd veracode-python-hmac-example
+    cd conector_veracode
     pip install -r requirements.txt
 
 
