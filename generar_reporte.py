@@ -5,7 +5,7 @@ from veracode_api_signing.plugin_requests import RequestsAuthPluginVeracodeHMAC
 
 #JSON
 api_base = "https://api.veracode.com/appsec/v2"
-headers = {"User-Agent": "Python HMAC Example",'content-type': 'application/json'}
+headers = {"User-Agent": "Python HMAC",'content-type': 'application/json'}
 
 if __name__ == "__main__":
 
@@ -19,9 +19,11 @@ if __name__ == "__main__":
 
     if response.ok:
         data = response.json()
-        print(data)
 
-        cadena_json = json.dumps(data)
+        print(data)
+        print("Reporte generado !!!")
+        print("Fin de la ejecución !!!")
+        cadena_json = json.dumps(data, indent=4)
 
         with open('datos.json','w') as f:
 
