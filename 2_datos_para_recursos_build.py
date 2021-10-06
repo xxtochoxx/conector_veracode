@@ -9,7 +9,7 @@ if __name__ == "__main__":
 
     result = requests.post(VERACODE_API_URL + "getbuildinfo.do", 
                            auth = RequestsAuthPluginVeracodeHMAC(), 
-                           data={"app_id" : "1169104"}) #agregar manualmente el id 
+                           data={"app_id" : "1214867"}) #agregar manualmente el id 
 
     print(result.text)
 
